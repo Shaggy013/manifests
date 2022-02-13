@@ -3,7 +3,7 @@
   <remote fetch="https://github.com/rockchip-linux/" name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
   <remote fetch="https://github.com/Caesar-github/" name="Caesar" review="https://github.com/Caesar-github/"/>
   <remote fetch="https://github.com/JeffyCN/" name="JeffyCN" review="https://github.com/JeffyCN/"/>
-  #<remote fetch="https://github.com/Shaggy013/" name="Shaggy013" review="https://github.com/Shaggy013/"/>
+  <remote fetch="https://github.com/Shaggy013/" name="Shaggy013" review="https://github.com/Shaggy013/"/>
   
 
  
@@ -95,14 +95,14 @@
   <project name="gcc" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" upstream="Quartz64" remote="Shaggy013" />
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />
   <project name="rkbin" />
-  -#<project name="tools" path="tools" revision="e54a31703d423c393a23d967213fe6b75229f64c" upstream="Quartz64" remote="Shaggy013">
+  <project name="tools" path="tools" revision="e54a31703d423c393a23d967213fe6b75229f64c" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  #<project name="u-boot" revision="4a3c619d338f8f6d0020619f1885779a9cf4de85" upstream="Quartz64" remote="Shaggy013" />
+  <project name="u-boot" revision="4a3c619d338f8f6d0020619f1885779a9cf4de85" upstream="Quartz64" remote="Shaggy013" />
 
   <!--yocto project-->
   <project name="yocto-conf" path="yocto/build/conf" upstream="Quartz64" remote="Shaggy013" revision="24c038473bd34cb3edb898fdf8d159e39adbd93b">	  

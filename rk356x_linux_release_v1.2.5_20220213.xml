@@ -34,9 +34,8 @@
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
   <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="Quartz64" remote="Shaggy013" />
-  <project name="rk-rootfs-build" path="debian-bullseye" upstream="stable-debian-bullseye" revision="0d21243a18a1d3df434e8b89fc2fffd9ec5f6f27" />
-  <project name="rk-rootfs-build" path="debian-buster" upstream="stable-debian-buster" revision="41a6ac84c00ee413a0f87a62b9a46d6c9ac0f72f" />
-  <project name="distro" />
+  <project name="Quartz64-bullseye-4" path="debian-bullseye-4" revision="d1a1e9bbb7d37d979adb508fafa8a53fa721ce63" remote="Shaggy013"/>
+  <project name="Quartz64-bullseye-5" path="debian-bullseye-5" revision="cd95d748a57df5ba024e1476136eeb2b1e708403" remote="Shaggy013"/>
   <project name="device-custom" path="device/rockchip" revision="4d08c32c2d6cdf0044723716827026fdafd3f452" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

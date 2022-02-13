@@ -27,7 +27,7 @@
   <project path="app/qcamera" name="qcamera" />
   <project path="app/qfm" name="qfm" />
   <project path="app/qplayer" name="qplayer" />              
-  <project path="qsetting" name="app/qsetting" revision="8137aca3945c1d5b59a01aa1d60790f003627175" upstream="Quartz64" remote="Shaggy013" />
+  <project path="app/qsetting" name="qsetting" revision="8137aca3945c1d5b59a01aa1d60790f003627175" upstream="Quartz64" remote="Shaggy013" />
   <project path="app/rkaiq_tool_server" name="rkaiq_tool_server" revision="75cb7e5d124ca55c710fb7e45eac74a07b76b4ea" upstream="socket" />
   <project name="buildroot" revision="55aa99175d801953c7891f27e4c7378f831cb456" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="Makefile" src="build/Makefile"/>

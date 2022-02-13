@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <notice>Your sources have been sync'd successfully.</notice>
-  
   <remote fetch="https://github.com/OSSystems" name="browser"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/JeffyCN/" name="github"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
-  <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-      
-  <project dest-branch="master" name="meta-browser" path="yocto/meta-browser" remote="browser" revision="a25979d8c6ee06ccc6588362b09a5036d33f9a51"/>
-  <project dest-branch="honister" name="meta-clang" path="yocto/meta-clang" remote="clang" revision="fc5389393adb005b519e488e9e6be4fc5791239c"/>
-  <project dest-branch="honister" name="meta-openembedded" path="yocto/meta-openembedded" remote="oe" revision="ae34f8f8e4f7210e4e86656a5dd9fb9bc1766ce1"/>
-  <project dest-branch="honister" name="meta-python2" path="yocto/meta-python2" remote="oe" revision="5243d509aebff378c1ae9d3dff6a29cfdc0dee1f"/>
-  <project dest-branch="honister" name="meta-qt5" path="yocto/meta-qt5" remote="qt5" revision="b6680da369626c932afb784fb28836881cd0457a"/>
-  <project dest-branch="honister" name="meta-rockchip" path="yocto/meta-rockchip" remote="github" revision="513b18f6fa66d497f5dd1423fe4b979c4ac648aa"/>
-  <project dest-branch="honister" name="poky" path="yocto/poky" remote="yocto" revision="b41d8d65d597ae754950e6ae1ad982d9d26db362">
+  
+  <project dest-branch="master" name="meta-browser" path="yocto/meta-browser" remote="browser" revision="d25d8ee98a656b2534d0eec6138ef264529fab4f"/>
+  <project dest-branch="honister" name="meta-clang" path="yocto/meta-clang" remote="clang" revision="088904d40231d9e099c2f5039cd3c2bc47d332d1"/>
+  <project dest-branch="honister" name="meta-openembedded" path="yocto/meta-openembedded" remote="oe" revision="4647e3ea3708d30eeb0149f6d5626c9576bff520"/>
+  <project dest-branch="honister" name="meta-python2" path="yocto/meta-python2" remote="oe" revision="5243d509aebff378c1ae9d3dff6a29cfdc0dee1f" />
+  <project dest-branch="honister" name="meta-qt5" path="yocto/meta-qt5" remote="qt5" revision="b64b0a213240375e697185de06c3f502c65cdee7"/>
+  <project dest-branch="honister" name="meta-rockchip" path="yocto/meta-rockchip" upstream="Quartz64" remote="Shaggy013" revision="1b46691cf8738bce3a85135f14f6dbe255b58988"/>
+  <project dest-branch="honister" name="poky" path="yocto/poky" remote="yocto" revision="883341e9ca18925b25e879866cca90bb57b552f2">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
+
   </project>
-  <extend-project dest-branch="honister" name="yocto-conf" path="yocto/build/conf" remote="github" revision="1a162c7df0b2227ec18af01fb499484918ff1f39"/>
+  <extend-project dest-branch="master" name="yocto-conf" path="yocto/build/conf" upstream="Quartz64" remote="Shaggy013" revision="24c038473bd34cb3edb898fdf8d159e39adbd93b"/>
 </manifest>

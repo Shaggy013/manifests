@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/firefly-linux" name="firefly-linux-gitlab"/>
   <remote fetch="https://github.com/rockchip-linux/" name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
   <remote fetch="https://github.com/Caesar-github/" name="Caesar" review="https://github.com/Caesar-github/"/>
   <remote fetch="https://github.com/JeffyCN/" name="JeffyCN" review="https://github.com/JeffyCN/"/>
+  #<remote fetch="https://github.com/Shaggy013/" name="Shaggy013" review="https://github.com/Shaggy013/"/>
   
 
  
@@ -27,28 +27,25 @@
   <project path="app/qcamera" name="qcamera" />
   <project path="app/qfm" name="qfm" />
   <project path="app/qplayer" name="qplayer" />
-  <project path="app/qsetting" name="app/qsetting" revision="7719da2d42787bac1a6fe075f2ddf6157cd5d678" remote="firefly-linux-gitlab" />
+  <project path="app/qsetting" name="app/qsetting" revision="8137aca3945c1d5b59a01aa1d60790f003627175" upstream="Quartz64" remote="Shaggy013" />
   <project path="app/rkaiq_tool_server" name="rkaiq_tool_server" revision="75cb7e5d124ca55c710fb7e45eac74a07b76b4ea" upstream="socket" />
-  <project path="app/storage_manager" name="app/storage_manager" revision="213aded5fbf9dc2fd05c0fd529aa3da55a6fea93" remote="firefly-linux-gitlab" upstream="firefly" />
-  <project name="buildroot" revision="e40657405daa618fc41537df82a92cb760a7e396">
+  <project name="buildroot" revision="55aa99175d801953c7891f27e4c7378f831cb456" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="firefly" remote="firefly-linux-gitlab" />
-  <project name="rk-rootfs-build" path="debian" />
+  <project name="buildroot-dl" path="buildroot/dl" revision="af79460718d20839ce5a290ff8681ca38da0939d" upstream="Quartz64" remote="Shaggy013" />
+  <project name="rk-rootfs-build" path="debian-bullseye" upstream="stable-debian-bullseye" revision="0d21243a18a1d3df434e8b89fc2fffd9ec5f6f27" />
+  <project name="rk-rootfs-build" path="debian-buster" upstream="stable-debian-buster" revision="41a6ac84c00ee413a0f87a62b9a46d6c9ac0f72f" />
   <project name="distro" />
-  <project name="device-custom" path="device/rockchip">
+  <project name="device-custom" path="device/rockchip" revision="4d08c32c2d6cdf0044723716827026fdafd3f452" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.target_product" src="rk356x"/>
   </project>
   <project name="docs" />
-  <project name="docs-soc_internal" path="docs/.Socs" revision="cc6a743d94fa54f412325e9f87368418236faeb5" remote="firefly-linux-gitlab" upstream="rk356x/firefly">
-    <linkfile dest="docs/RK356X" src="RK356X"/>
-  </project>
   <project name="CallFunIpc" path="external/CallFunIpc" />
-  <project name="external/RKNPUTools" path="external/RKNPUTools" revision="b8c0e77c1a5c8e886c3ebf3483557e8755485e6e" remote="firefly-linux-gitlab" upstream="firefly"/>
+  <project name="RKNPUTools" path="external/RKNPUTools" revision="68e68f97ea9e9fa3350419a40b95b92b0828a882" />
   <project name="alsa-config" path="external/alsa-config" />
   <project name="app" path="external/app" />
   <project name="avb" path="external/avb" />
@@ -56,7 +53,7 @@
   <project name="bluetooth_bsa" path="external/bluetooth_bsa"  />
   <project name="bluez-alsa" path="external/bluez-alsa" /> 
   <project name="broadcom_bsa" path="external/broadcom_bsa" />
-  <project name="camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="rk356x" />
+  <project name="camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="f53ba968388ce4c98e80ef2301820ad0db5a6153" upstream="rk356x"/>
   <project name="chromium" path="external/chromium" />
   <project name="common_algorithm" path="external/common_algorithm" />
   <project name="eq_drc_process" path="external/eq_drc_process" />
@@ -69,7 +66,7 @@
   <project name="minigui" path="external/minigui" /> 
   <project name="minigui_desktop" path="external/minigui_desktop" />
   <project name="minilogger" path="external/minilogger" />
-  <project name="mpp" path="external/mpp" revision="develop" />
+  <project name="mpp" path="external/mpp" revision="c2768e1b8663e836b8a7a9a07fe79ff3aaf59c47" upstream="develop" />
   <project name="pcba_adb_test" path="external/pcba_adb_test" />
   <project name="recovery" path="external/recovery" revision="develop" />
   <project name="rk_pcba_test" path="external/rk_pcba_test" />
@@ -78,13 +75,12 @@
   <project name="rknn_demo" path="external/rknn_demo" />
   <project name="rknpu" path="external/rknpu" />
   <project name="rknpu2" path="external/rknpu2" />
-  <project name="rkscript" path="external/rkscript" />
+  <project name="rkscript" path="external/rkscript" revision="fe6b8809881a2577c462d089176c56f686c50f1f" upstream="Quartz64" remote="Shaggy013"/>
   <project name="rktoolkit" path="external/rktoolkit" />
   <project name="rkupdate" path="external/rkupdate" />
-  <project name="external/rkwifibt" path="external/rkwifibt" revision="rk356x/firefly" remote="firefly-linux-gitlab" />
+  <project name="rkwifibt" path="external/rkwifibt" revision="499465be84d03db6255695ad333836311c5bc393" upstream="Quartz64" remote="Shaggy013" />
   <project name="rockface" path="external/rockface" />
   <project name="rockit" path="external/rockit" />
-  <project name="external/rockx" path="external/rockx" revision="19ffaec48095f6ee53b798d7d0ba3de86515449a" remote="firefly-linux-gitlab"/> 
   <project name="rtc_demo" path="external/rtc_demo" />
   <project name="bin" path="external/security/bin" />
   <project name="rk_tee_user" path="external/security/rk_tee_user" revision="develop-next" /> 
@@ -93,23 +89,23 @@
   <project name="uac_app" path="external/uac_app" />
   <project name="deviceio_release" path="external/deviceio_release" />
   <project name="update_engine" path="external/update_engine" />
-  <project name="external/uvc_app" path="external/uvc_app" revision="e6b7aa7bf357e60abd04b9c20738dc1f9b6755a1" upstream="rk356x/firefly" remote="firefly-linux-gitlab" />
   <project name="wifiAutoSetup" path="external/wifiAutoSetup" />
-  <project name="mirrors" upstream="kernel-4.19" path="kernel" revision="0ae800261393ff209df0fe779a11a52c45fd9712" remote="JeffyCN" />
-  <project name="gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" />
+  <project name="kernel-4.19" path="kernel-4.19" revision="a0a9d61223d7733feaa3913a1528d968ebcde1bd" upstream="Quartz64" remote="Shaggy013" />
+  <project name="kernel-5.10" path="kernel-5.10" revision="788eb842f8eec41caa922e4f7695288f5a16b4f0" upstream="Quartz64" remote="Shaggy013" />
+  <project name="gcc" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" upstream="Quartz64" remote="Shaggy013" />
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />
   <project name="rkbin" />
-  <project name="tools" remote="rockchip-linux" revision="f9b502c8693570a30568956a5ee9d89a4cedb59d">
+  -#<project name="tools" path="tools" revision="e54a31703d423c393a23d967213fe6b75229f64c" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="next-dev" />
+  #<project name="u-boot" revision="4a3c619d338f8f6d0020619f1885779a9cf4de85" upstream="Quartz64" remote="Shaggy013" />
 
   <!--yocto project-->
-  <project name="yocto-conf" path="yocto/build/conf" remote="JeffyCN" upstream="honister" revision="1a162c7df0b2227ec18af01fb499484918ff1f39">	  
+  <project name="yocto-conf" path="yocto/build/conf" upstream="Quartz64" remote="Shaggy013" revision="24c038473bd34cb3edb898fdf8d159e39adbd93b">	  
   </project>
   <include name="yocto.xml" />
 </manifest>

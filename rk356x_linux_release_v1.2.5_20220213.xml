@@ -35,7 +35,7 @@
   </project>
   <project name="Quartz64-bullseye-4" path="debian-bullseye-4" revision="d1a1e9bbb7d37d979adb508fafa8a53fa721ce63" remote="Shaggy013"/>
   <project name="Quartz64-bullseye-5" path="debian-bullseye-5" revision="cd95d748a57df5ba024e1476136eeb2b1e708403" remote="Shaggy013"/>
-  <project name="device-custom" path="device/rockchip" revision="4d08c32c2d6cdf0044723716827026fdafd3f452" upstream="Quartz64" remote="Shaggy013">
+  <project name="device-custom" path="device/rockchip" revision="859c86f838354a482ca773e3786b94054b69113c" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -88,7 +88,7 @@
   <project name="deviceio_release" path="external/deviceio_release" />
   <project name="update_engine" path="external/update_engine" />
   <project name="wifiAutoSetup" path="external/wifiAutoSetup" />
-  <project name="kernel-4.19" path="kernel-4.19" revision="a0a9d61223d7733feaa3913a1528d968ebcde1bd" upstream="Quartz64" remote="Shaggy013" />
+  <project name="kernel-4.19" path="kernel-4.19" revision="dac81eed50c0f8178ba86a1aa9344a1844e81c51" upstream="Quartz64" remote="Shaggy013" />
   <project name="kernel-5.10" path="kernel-5.10" revision="788eb842f8eec41caa922e4f7695288f5a16b4f0" upstream="Quartz64" remote="Shaggy013" />
   <project name="gcc" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="3dbb0ac74aedd7b4d2091463a1a189fcef5dbede" upstream="Quartz64" remote="Shaggy013" />
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />

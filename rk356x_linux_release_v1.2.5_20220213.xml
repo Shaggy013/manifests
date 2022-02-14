@@ -51,7 +51,7 @@
   <project name="bluetooth_bsa" path="external/bluetooth_bsa"  />
   <project name="bluez-alsa" path="external/bluez-alsa" /> 
   <project name="broadcom_bsa" path="external/broadcom_bsa" />
-  <project name="camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="f53ba968388ce4c98e80ef2301820ad0db5a6153" upstream="rk356x"/>
+  <project name="camera-engine-rkaiq" path="external/camera_engine_rkaiq" revision="0d86214ca9adc44a21eee56f39c0daeee91bdaeb" emote="Shaggy013"/>
   <project name="chromium" path="external/chromium" />
   <project name="common_algorithm" path="external/common_algorithm" />
   <project name="eq_drc_process" path="external/eq_drc_process" />

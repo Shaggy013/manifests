@@ -102,7 +102,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
   </project>
-  <project name="u-boot" revision="14d99fe8fbace5f44bda45581d27b383076af099" upstream="Quartz64" remote="Shaggy013" />
+  <project name="u-boot" revision="562dd291f36a86f1a69aafdeab950b3646f8a53a" upstream="Quartz64" remote="Shaggy013" />
 
   <!--yocto project-->
   <project name="yocto-conf" path="yocto/build/conf" upstream="Quartz64" remote="Shaggy013" revision="77aea98a1c65f25323cfacac4227a37ab47f4257">	  

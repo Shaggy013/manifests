@@ -35,8 +35,8 @@
   </project>
   <project name="Quartz64-bullseye-4" path="debian-bullseye-4" revision="d1a1e9bbb7d37d979adb508fafa8a53fa721ce63" remote="Shaggy013"/>
   <project name="Quartz64-bullseye-5" path="debian-bullseye-5" revision="cd95d748a57df5ba024e1476136eeb2b1e708403" remote="Shaggy013"/>
-  <project name="ubuntu" path="ubuntu-20.04-4" revision="7c8d179d162dcbf27a5445276f70d404db2979e2" remote="Shaggy013"/>
-  <project name="ubuntu" path="ubuntu-20.04-5" revision="7c8d179d162dcbf27a5445276f70d404db2979e2" remote="Shaggy013"/>
+  <project name="ubuntu" path="ubuntu-20.04-4" revision="cda3abb721644c1ae84484f4d423168abc521eb5" remote="Shaggy013"/>
+  <project name="ubuntu" path="ubuntu-20.04-5" revision="cda3abb721644c1ae84484f4d423168abc521eb5" remote="Shaggy013"/>
   <project name="device-custom" path="device/rockchip" revision="eb047bb916eedb71a53d839f940046440a7f812d" upstream="Quartz64" remote="Shaggy013">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

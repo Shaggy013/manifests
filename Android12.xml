@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- remote repo and gerrit review -->
-  <include name="remote-raxda.xml" />
+  <remote fetch="http://gitlab.com/rockchip_android_r" name="aosp"/>
+  <remote fetch="http://gitlab.com/rockchip_android_r" name="rk"/>
+  <remote fetch="http://gitlab.com/rockchip_android_r" name="rk29"/>
+  <remote fetch="http://gitlab.com/rockchip_android_r" name="rk_legacy"/>
 
   <!-- aosp default repository-->
   <include name="default.xml" />

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/rockchip-linux/" name="rockchip-linux" review="https://github.com/rockchip-linux/"/>
+  <remote fetch="https://github.com/Caesar-github/" name="Caesar" review="https://github.com/Caesar-github/"/>
+  <remote fetch="https://github.com/JeffyCN/" name="JeffyCN" review="https://github.com/JeffyCN/"/>
+  <remote fetch="https://github.com/Shaggy013/" name="Shaggy013" review="https://github.com/Shaggy013/"/>
+  
+
+ 
+  <default remote="Caesar" revision="master" sync-j="4"/>
+  
+  <project path="app/CameraFactoryTestServer" name="CameraFactoryTestServer" />
+  <project path="app/QFacialGate" name="QFacialGate" />
+  <project path="app/QLauncher" name="QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d" upstream="develop" />
+  <project path="app/aiserver" name="aiserver" />
+  <project path="app/dbserver" name="dbserver" />
+  <project path="app/eptz_demo" name="eptz_demo" />
+  <project path="app/ipc-daemon" name="ipc-daemon" />
+  <project path="app/ipcweb-backend" name="ipcweb-backend" />
+  <project path="app/ipcweb-ng" name="ipcweb-ng" />
+  <project path="app/libIPCProtocol" name="libIPCProtocol" />
+  <project path="app/libgdbus" name="libgdbus" />
+  <project path="app/librkdb" name="librkdb" />
+  <project path="app/mediaserver" name="mediaserver" />
+  <project path="app/multivideoplayer" name="multivideoplayer" />
+  <project path="app/network_manager" name="network_manager" />
+  <project path="app/qcamera" name="qcamera" />
+  <project path="app/qfm" name="qfm" />
+  <project path="app/qplayer" name="qplayer" />              
+  <project path="app/qsetting" name="qsetting" revision="8137aca3945c1d5b59a01aa1d60790f003627175" upstream="Quartz64" remote="Shaggy013" />
+  <project path="app/rkaiq_tool_server" name="rkaiq_tool_server" revision="75cb7e5d124ca55c710fb7e45eac74a07b76b4ea" upstream="socket" />
+  <project name="buildroot" revision="09e555e07f10277fe9ec9dfea615e01da09a36d3" upstream="Quartz64" remote="Shaggy013">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="Quartz64-bullseye-4" path="debian-bullseye-4" revision="d1a1e9bbb7d37d979adb508fafa8a53fa721ce63" remote="Shaggy013"/>
+  <project name="Quartz64-bullseye-5" path="debian-bullseye-5" revision="cd95d748a57df5ba024e1476136eeb2b1e708403" remote="Shaggy013"/>
+  <project name="ubuntu" path="ubuntu-20.04-4" revision="cda3abb721644c1ae84484f4d423168abc521eb5" remote="Shaggy013"/>
+  <project name="ubuntu" path="ubuntu-20.04-5" revision="cda3abb721644c1ae84484f4d423168abc521eb5" remote="Shaggy013"/>
+  <project name="device-custom" path="device/rockchip" revision="eb047bb916eedb71a53d839f940046440a7f812d" upstream="Quartz64" remote="Shaggy013">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.target_product" src="rk356x"/>
+  </project>
+  <project name="docs" />
+  <project name="CallFunIpc" path="external/CallFunIpc" />
+  <project name="RKNPUTools" path="external/RKNPUTools" revision="68e68f97ea9e9fa3350419a40b95b92b0828a882" />
+  <project name="alsa-config" path="external/alsa-config" />
+  <project name="app" path="external/app" />
+  <project name="avb" path="external/avb" />
+  <project name="ble_wificonfig" path="external/ble_wificonfig" />
+  <project name="bluetooth_bsa" path="external/bluetooth_bsa"  />
+  <project name="bluez-alsa" path="external/bluez-alsa" /> 
+  <project name="broadcom_bsa" path="external/broadcom_bsa" />
+  <project name="camera-engine-rkaiq" path="external/camera_engine_rkaiq" revision="1b74587c9107d9e469b05fcd8bcad4aae16911b5" remote="Shaggy013"/>
+  <project name="chromium" path="external/chromium" />
+  <project name="common_algorithm" path="external/common_algorithm" />
+  <project name="eq_drc_process" path="external/eq_drc_process" />
+  <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" />
+  <project name="isp2-ipc" path="external/isp2-ipc" />
+  <project name="ladspaSDK" path="external/ladspaSDK" />
+  <project name="libglCompositor" path="external/libglCompositor" />
+  <project name="libmali" path="external/libmali" />
+  <project name="linux-rga" path="external/linux-rga" upstream="im2d"/>
+  <project name="minigui" path="external/minigui" /> 
+  <project name="minigui_desktop" path="external/minigui_desktop" />
+  <project name="minilogger" path="external/minilogger" />
+  <project name="mpp" path="external/mpp" revision="c2768e1b8663e836b8a7a9a07fe79ff3aaf59c47" upstream="develop" />
+  <project name="pcba_adb_test" path="external/pcba_adb_test" />
+  <project name="recovery" path="external/recovery" revision="develop" />
+  <project name="rk_pcba_test" path="external/rk_pcba_test" />
+  <project name="rkfacial" path="external/rkfacial" />
+  <project name="rknn-toolkit2" path="external/rknn-toolkit2" remote="rockchip-linux" />
+  <project name="rknn_demo" path="external/rknn_demo" />
+  <project name="rknpu" path="external/rknpu" />
+  <project name="rknpu2" path="external/rknpu2" />
+  <project name="rkscript" path="external/rkscript" revision="fe6b8809881a2577c462d089176c56f686c50f1f" upstream="Quartz64" remote="Shaggy013"/>
+  <project name="rktoolkit" path="external/rktoolkit" />
+  <project name="rkupdate" path="external/rkupdate" />
+  <project name="rkwifibt" path="external/rkwifibt" revision="499465be84d03db6255695ad333836311c5bc393" upstream="Quartz64" remote="Shaggy013" />
+  <project name="rockface" path="external/rockface" />
+  <project name="rockit" path="external/rockit" />
+  <project name="rtc_demo" path="external/rtc_demo" />
+  <project name="bin" path="external/security/bin" />
+  <project name="rk_tee_user" path="external/security/rk_tee_user" revision="develop-next" /> 
+  <project name="softapDemo" path="external/softapDemo" />
+  <project name="tensorflow" path="external/tensorflow" />
+  <project name="uac_app" path="external/uac_app" />
+  <project name="deviceio_release" path="external/deviceio_release" />
+  <project name="update_engine" path="external/update_engine" />
+  <project name="wifiAutoSetup" path="external/wifiAutoSetup" />
+  <project name="kernel-4.19" path="kernel-4.19" revision="00f6460b34883f7cc7fc82f5d861238abf5cd564" upstream="Quartz64" remote="Shaggy013" />
+  <project name="kernel-5.10" path="kernel-5.10" revision="788eb842f8eec41caa922e4f7695288f5a16b4f0" upstream="Quartz64" remote="Shaggy013" />
+  <project name="gcc" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="3dbb0ac74aedd7b4d2091463a1a189fcef5dbede" upstream="Quartz64" remote="Shaggy013" />
+  <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" />
+  <project name="rkbin" />
+  <project name="tools" path="tools" revision="e54a31703d423c393a23d967213fe6b75229f64c" upstream="Quartz64" remote="Shaggy013">
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk356x-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk356x-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk356x-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk356x-package-file"/>
+  </project>
+  <project name="u-boot" revision="562dd291f36a86f1a69aafdeab950b3646f8a53a" upstream="Quartz64" remote="Shaggy013" />
+
+  <!--yocto project-->
+  <project name="yocto-conf" path="yocto/build/conf" upstream="Quartz64" remote="Shaggy013" revision="77aea98a1c65f25323cfacac4227a37ab47f4257">	  
+  </project>
+  <include name="yocto.xml" />
+</manifest>

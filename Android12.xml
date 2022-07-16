@@ -3,6 +3,8 @@
   <!-- remote repo and gerrit review -->
   <include name="remote.xml" />
 
+<default  remote="rk" sync-j="4"/>
+
   <include name="include/rk_modules_repository.xml" />
   <include name="include/rk_checkout_repository.xml" />
   <include name="include/rk3588_repository.xml" />

@@ -10,7 +10,7 @@
 
   <!-- replacements aosp projects 
   <include name="rockchip-replace.xml" /> -->
-  <include name="commit/commit_release_rkr6_no_remote.xml" />
+  <include name="commit_release_rkr6_no_remote.xml" />
   
   <!-- rockchip repos 
   <include name="rockchip-add.xml" /> -->

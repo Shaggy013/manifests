@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- remote repo and gerrit review -->
-  <remote name="ohd" fetch="./" review="https://partner-android.googlesource.com"/>
-  <remote name="aosp" fetch="./" review="https://10.10.10.29" />
-  <remote name="rk" fetch="./" review="https://10.10.10.29" />
-  <remote name="rk29" fetch="./" review="https://10.10.10.29" />
-  <remote name="rk_legacy" fetch="."/>
+
+  <remote  name="rockchip"
+           fetch="ssh://git@github.com/aosp-rockchip/"
+           revision="refs/heads/quartz64"
+           sync-j="8" />
+
+  <remote  name="rk-aosp"
+           fetch="ssh://git@github.com/aosp-rockchip/"
+           revision="refs/heads/r-11.0"
+           sync-j="8" />
+
+  <remote  name="github"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="8" />
+
+  <remote fetch="http://gitlab.com/rockchip_android_r" name="rk"/>
+  <remote fetch="http://gitlab.com/rockchip_android_r" name="rk29"/>
+  <remote fetch="http://gitlab.com/rockchip_android_r" name="rk_legacy"/>
+
 </manifest>

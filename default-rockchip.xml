@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- remove projects 
+  <include name="rockchip-remove.xml" /> -->
+  <include name="remove_s.xml" />
+  <include name="remove_unused.xml" />
+
   <!-- remote definitions -->
   <include name="remote.xml" />
 
-  <!-- replacements aosp projects -->
-  <include name="rockchip-replace.xml" />
+  <!-- replacements aosp projects 
+  <include name="rockchip-replace.xml" /> -->
+  <include name="commit/commit_release_rkr6_no_remote.xml" />
   
-  <!-- rockchip repos -->
-  <include name="rockchip-add.xml" />
+  <!-- rockchip repos 
+  <include name="rockchip-add.xml" /> -->
+  <include name="Android12_Radxa_rk6.xml" />
 </manifest>

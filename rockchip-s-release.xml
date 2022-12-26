@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp" fetch="http://gitlab.com/rockchip_android_s" />
+  <remote name="ohd" fetch="http://gitlab.com/rockchip_android_s" />
+  <remote name="rk" fetch="http://gitlab.com/rockchip_android_s" />
+  <remote name="rk29" fetch="http://gitlab.com/rockchip_android_s" />
+  <remote name="rk_legacy" fetch="http://gitlab.com/rockchip_android_s"/>
+  <remote name="rk11" fetch="http://gitlab.com/rockchip_android_r"/>
+  <remote name="gapps" fetch="https://github.com/opengapps/"/>
+
+  <include name="Android12_RK3588_Radxa_rkr10.xml" />
+</manifest>
+

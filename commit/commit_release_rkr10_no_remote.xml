@@ -29,10 +29,6 @@
   <project groups="device,crosshatch,generic_fs" name="device/google/crosshatch-sepolicy" revision="d85b8513e45a0d5926146536b7ba44a13831fdac" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="device,pdk" name="device/google/cuttlefish" revision="3e13bb5f5d3c8bf8928f8feeab273b10c463c410" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="device" name="device/google/fuchsia" revision="60238e5fab7925196af80ee67f78c6ac1e4f2562" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project groups="device,slider,pdk-gs-arm" name="device/google/gs-common" revision="edbdff98d5e2c9719afe4f6a9cf95b5d641fb577" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project groups="device,slider" name="device/google/gs101" revision="8a03cebba7357606577d060d858e2ba5ad085fd2" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project groups="device,slider" name="device/google/gs101-sepolicy" revision="9be4ba153b6b0d9bffc6121d1c2cbcc8a564c22b" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project groups="device,slider" name="device/google/raviole" revision="efe143c70e405db776c33587a00a791a65079232" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="device/google/vrservices" revision="67138ba6299bbfa77a93a03e6d2ae37b8c96526e" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="device/google_car" revision="699d4b3df7f0161836da4df520fe07f8bdf78ff9" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="device/sample" revision="f408a1b4662ba1dda78f2843584cc3b18196cef8" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
@@ -677,15 +673,12 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/proto_logging" path="frameworks/proto_logging" revision="4273721b1af8472a5aa4e22773715eb0b4c2e3a2" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs" revision="e50017c8ff8795c1bc69b2417f13331cddbf89dd" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="4ea879d3a536cf67e6077e9f8c6586781580ca09" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project name="platform/hardware/aic" path="hardware/aic" remote="rk" revision="8ca1af22c3c1f81fe5fec53710ba52ae6505c449" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project name="platform/hardware/bes" path="hardware/bes" remote="rk" revision="eee4ff6e3d129e28d83ebc66c54a287dc94116ac" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="d1adabd3c434a97898f3f625801b677507ef3248" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="8815fecdd4cb221ea5802c03c840639ec9c93bba" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf" revision="b6f28bf2b9fb65eeedc1ae394e67a18be19d0006" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/hardware/google/av" path="hardware/google/av" revision="90727cc59c2c1d08d666987c9376fd0f0dbfa18d" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/hardware/google/camera" path="hardware/google/camera" revision="922d486f55ca365d0eafdfc5602e67b1b963f1fb" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk,easel" name="platform/hardware/google/easel" path="hardware/google/easel" revision="857b61ecbb94ba0d41c888f60196c75ace210ce1" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project groups="pdk-lassen" name="platform/hardware/google/gchips" path="hardware/google/gchips" revision="abf896571c4dbae29374f4509ef761c2c8179738" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk-lassen" name="platform/hardware/google/graphics/common" path="hardware/google/graphics/common" revision="3d0cb2c25579f2e40a00f5df19b0dcc014fea6a0" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk" name="platform/hardware/google/interfaces" path="hardware/google/interfaces" revision="e9fd9d77739aedee4e967d446828e30a65d59163" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="generic_fs,pixel" name="platform/hardware/google/pixel" path="hardware/google/pixel" revision="32cc9fc88639f0604653987e99044ce7809c69eb" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
@@ -793,7 +786,6 @@
   <project groups="pdk-fs" name="platform/packages/apps/Car/SystemUI" path="packages/apps/Car/SystemUI" revision="8db03c3c65c802eff9ada6c63e17f12c60b921e3" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" revision="4aa8e9a668c0034aa210d8a28915f83ea5f123ce" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" revision="0fb4e0fe9f5a1dca37eb3be2ab279601af2336de" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Car/systemlibs" path="packages/apps/Car/systemlibs" revision="82b5844b33cf4863c9f061d408dd201ffb086ae3" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/tests" path="packages/apps/Car/tests" revision="70ef61a08c5df9cb9d7877f8e8fdd2b0e8d18710" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="9243eff9cafbe6c03d9749db006a55a534acb58a" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="c6d4d3a320646dd262de9f73ae60936f31da6bab" upstream="refs/tags/Android12_RK3588_Radxa_rkr10"/>

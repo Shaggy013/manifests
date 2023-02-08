@@ -7,6 +7,7 @@
   <remote name="rk_legacy" fetch="http://gitlab.com/rockchip_android_s"/>
   <remote name="rk11" fetch="http://gitlab.com/rockchip_android_r"/>
   <remote name="gapps" fetch="https://github.com/opengapps/"/>
+  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"/>
 
   <include name="Android12_RK3588_Radxa_rkr10.xml" />
 </manifest>

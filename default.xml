@@ -124,6 +124,10 @@
     <linkfile dest="kernel-4.19/kernel/configs/non_debuggable.config" src="configs/non_debuggable.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/non_debuggable.config" src="configs/non_debuggable.config"/>
     <linkfile dest="kernel-5.10/kernel/configs/pcie_wifi.config" src="configs/pcie_wifi.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/rtl8125.config" src="configs/rtl8125.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/rock5a.config" src="configs/rock5a.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/rock5b.config" src="configs/rock5b.config"/>
+    <linkfile dest="kernel-5.10/kernel/configs/bcm_sdio_wifi.config" src="configs/bcm_sdio_wifi.config"/>
   </project>
   <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="github" upstream="refs/tags/Android12_Radxa_rk12_12.1" revision="78c3df570e54c70a5b731dca43d096afe958c709"/>
   <project name="platform/packages/apps/Browser2" path="packages/apps/Browser2" remote="github" upstream="refs/tags/Android12_Radxa_rk12_12.1" revision="d58ad3a0ee44cf0e23b336f21e1e2c944220b73f"/>
